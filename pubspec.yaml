@@ -1,0 +1,28 @@
+name: flutter_weather
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^4.0.1
+  http: ^0.12.1
+  equatable: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - /Users/yashvardhan/AndroidStudioProjects/flutter_weather_bloc_app/lib/assets/clear.png
+    - /Users/yashvardhan/AndroidStudioProjects/flutter_weather_bloc_app/lib/assets/cloudy.png
+    - /Users/yashvardhan/AndroidStudioProjects/flutter_weather_bloc_app/lib/assets/rainy.png
+    - /Users/yashvardhan/AndroidStudioProjects/flutter_weather_bloc_app/lib/assets/snow.png
+    - /Users/yashvardhan/AndroidStudioProjects/flutter_weather_bloc_app/lib/assets/thunderstorm.png
